@@ -27,7 +27,7 @@
     numNoses=nosePaths.length;
     mouthCounter=0;
     numMouths=mouthPaths.length;
-    for(var i=0; i<1500; i+=1){
+    for(var i=0; i<800; i+=1){
         if(i%4==0){
 	  faceParts[i]=new PIXI.Sprite(eyeTextures[eyeCounter%numEyes]);
           eyeCounter+=1;
@@ -64,7 +64,7 @@
 
     requestAnimationFrame(animate);
     function animate() {
-        for(var j=0;j<1500;j+=1){
+        for(var j=0;j<800;j+=1){
           faceParts[j].position.x+=Math.random()*5-2.5;
           faceParts[j].position.y+=Math.random()*5-2.5;
           faceParts[j].rotation+=Math.random()*0.01-0.005;
