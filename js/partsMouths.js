@@ -1,0 +1,1 @@
+mouthPaths = ["faceParts/mouths/mouth_1.png"];

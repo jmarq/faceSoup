@@ -1,0 +1,1 @@
+eyePaths = ["faceParts/eyes/eye_2.png", "faceParts/eyes/eye_1.png"];
